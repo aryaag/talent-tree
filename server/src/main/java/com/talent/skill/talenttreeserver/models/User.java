@@ -5,6 +5,7 @@ public class User {
     private String geid;
     private String soeid;
     private String name;
+    private String location;
 
     public String getGeid() {
         return geid;
@@ -30,12 +31,21 @@ public class User {
         this.name = name;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "geid='" + geid + '\'' +
                 ", soeid='" + soeid + '\'' +
                 ", name='" + name + '\'' +
+                ", location='" + location + '\'' +
                 '}';
     }
 }
