@@ -1,0 +1,207 @@
+2018-05-05 15:17:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO SKILLS VALUES ('JAVA') [21002-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.dml.Insert.prepare(Insert.java:306)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:1077)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1386)
+	at org.h2.server.web.WebApp.query(WebApp.java:1060)
+	at org.h2.server.web.WebApp.query(WebApp.java:1036)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:170)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:124)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:161)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-05-05 15:17:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column count does not match; SQL statement:
+INSERT INTO SKILLS VALUES ('PYTHON') [21002-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.command.dml.Insert.prepare(Insert.java:306)
+	at org.h2.command.Parser.prepareCommand(Parser.java:283)
+	at org.h2.engine.Session.prepareLocal(Session.java:611)
+	at org.h2.engine.Session.prepareCommand(Session.java:549)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:1077)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1386)
+	at org.h2.server.web.WebApp.query(WebApp.java:1060)
+	at org.h2.server.web.WebApp.query(WebApp.java:1036)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:170)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:124)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:161)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-05-05 16:20:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR
+(255) NOT NULL, CONTENT VARCHAR
+(4000), LEVEL INT, SKILL_ID INT FOREIGN[*] KEY REFERENCES SKILLS
+(ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR
+(255) NOT NULL, CONTENT VARCHAR
+(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS
+(ID)) [42001-197]
+2018-05-05 16:20:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHALLENGES" not found; SQL statement:
+INSERT INTO CHALLENGES
+    (NAME , CONTENt, LEVEL , SKILL_ID )
+VALUES
+    ('TRAINING', 'DO TRAINING', 1, 1) [42102-197]
+2018-05-05 16:20:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHALLENGES" not found; SQL statement:
+INSERT INTO CHALLENGES
+    (NAME , CONTENt, LEVEL , SKILL_ID )
+VALUES
+    ('PROJECT', 'DO PROJECT', 3, 4) [42102-197]
+2018-05-05 16:20:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CHALLENGES" not found; SQL statement:
+SELECT *
+FROM CHALLENGES [42102-197]
+2018-05-05 16:21:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR
+(255) NOT NULL, CONTENT VARCHAR
+(4000), LEVEL INT, SKILL_ID INT FOREIGN[*] KEY REFERENCES SKILLS
+(ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR
+(255) NOT NULL, CONTENT VARCHAR
+(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS
+(ID)) [42001-197]
+2018-05-05 16:21:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN[*] KEY REFERENCES SKILLS(ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT NOT NULL, NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID)) [42001-197]
+2018-05-05 16:22:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID))"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID)) [42001-197]
+2018-05-05 16:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT )"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT ) [42001-197]
+2018-05-05 16:23:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255), CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID))"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255), CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID)) [42001-197]
+2018-05-05 16:23:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN[*] KEY REFERENCES SKILLS(ID))"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID)) [42001-197]
+2018-05-05 16:25:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID))"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT FOREIGN KEY REFERENCES SKILLS(ID)) [42001-197]
+2018-05-05 16:26:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT )"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT ) [42001-197]
+2018-05-05 16:26:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT )"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT ) [42001-197]
+2018-05-05 16:26:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*] , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT )"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT , NAME VARCHAR(255) NOT NULL, CONTENT VARCHAR(4000), LEVEL INT, SKILL_ID INT ) [42001-197]
+2018-05-05 16:30:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT[*])"; expected "CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CHALLENGES(ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT) [42001-197]
+2018-05-05 16:34:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DELETE FROM CHALLENGES 
+
+
+SELECT[*] * FROM CHALLENGES"; SQL statement:
+DELETE FROM CHALLENGES 
+
+
+SELECT * FROM CHALLENGES [42000-197]
+2018-05-05 17:06:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DELETE FROM USER_SKILLS 
+
+UPDATE USERS[*] SET GEID = '1234567890', SOEID = 'AB12345' "; SQL statement:
+delete from user_skills 
+
+update users set geid = '1234567890', soeid = 'AB12345' [42000-197]
+2018-05-05 17:08:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO USERS VALUES ('1234567891', 'SS12345','Saitam Sensei')
+
+INSERT[*] INTO USERS VALUES ('1234567890', 'YL12345','Yagami Light') "; SQL statement:
+insert into users values ('1234567891', 'SS12345','Saitam Sensei')
+
+insert into users values ('1234567890', 'YL12345','Yagami Light') [42000-197]
